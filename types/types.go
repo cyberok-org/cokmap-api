@@ -1,4 +1,4 @@
-package matcher
+package types
 
 import "cyberok.gitlab.yandexcloud.net/cok/tools/regexp2"
 
