@@ -1,6 +1,6 @@
 package types
 
-import "cyberok.gitlab.yandexcloud.net/cok/tools/regexp2"
+import "github.com/dlclark/regexp2"
 
 type TokenKind int
 
