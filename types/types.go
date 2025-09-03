@@ -1,7 +1,5 @@
 package types
 
-import "github.com/dlclark/regexp2"
-
 type TokenKind int
 
 type Token struct {
@@ -35,9 +33,10 @@ type Matcher struct {
 	Probe    string
 	Service  string
 	App      string
+	Soft     bool
+	Pattern  MatchPattern
+	Re       any
 	Info[Template]
-	Soft bool
-	Re   *regexp2.Regexp
 }
 
 type Matchers []*Matcher
